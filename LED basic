@@ -8,10 +8,10 @@ for +5V logic you need to add resistor!
 int ledPin = 3; // LED name and relevant pin
 
 void setup() {
- pinMode(ledPin, OUTPUT); // set led connected with pin and GND
+  pinMode(ledPin, OUTPUT); // set led connected with pin and GND
 }
 
 void loop() {
- digitalWrite(ledPin, HIGH); // turn on LED
- //digitalWrite(ledPin, LOW); // turn off LED
+  digitalWrite(ledPin, HIGH); // turn on LED
+  //digitalWrite(ledPin, LOW); // turn off LED
 }
